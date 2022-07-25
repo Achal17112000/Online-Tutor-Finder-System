@@ -51,6 +51,7 @@ export class TutorRegistrationComponent implements OnInit {
     this.api.PostTutor(this.tutorObj)
     .subscribe(res => {
       console.log(res);
+      alert("Details has been submitted")
     })
 
     this.emailObj.recipient = this.formValue.value.tutor_email;
