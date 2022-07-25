@@ -1,0 +1,47 @@
+<br><br>
+<h1><span>T</span>utor <span>F</span>inder</h1>
+<div class="adjust">
+  <button type="button"  class="btn btn-primary">Logout</button>
+</div><br>
+<hr style="height:5px;border-width:0;color:lightseagreen;background-color:lightseagreen">
+
+<br>
+<h3 style="padding-left: 100px;">Tutor List</h3><br>
+<div class="adjust2">
+  <button type="button"  class="btn btn-primary">View E-Books</button>
+</div>
+
+<br><br>
+<div class="table">
+  <table class="table table-striped" >
+    <thead>
+      <tr>
+        <th scope="col">Employee Id</th>
+        <th scope="col">First Name</th>
+        <th scope="col">Subject</th>
+        <th scope="col">Area</th>
+        <th scope="col">City</th>
+        <th scope="col">Email</th>
+        <th scope="col">Action</th>
+      </tr>
+    </thead>
+    <tbody>
+<tr *ngFor="let row of tutors">
+        <td>{{row.tutorId}}</td>
+        <td>{{row.tutorName}}</td>
+        <td>{{row.subject}}</td>
+        <td>{{row.tutorArea}}</td>
+        <td>{{row.tutorCity}}</td>
+        <td>{{row.emailId}}</td>
+        <td>
+          <div>
+            <button type="button" class="btn btn-primary">Request Demo</button>
+            <div class="space"></div>
+            <button type="button" class="btn btn-info mx-3">Book Tutor</button>
+            <div class="space"></div>
+          </div>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>

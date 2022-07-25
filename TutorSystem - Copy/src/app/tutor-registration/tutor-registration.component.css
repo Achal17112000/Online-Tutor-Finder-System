@@ -1,0 +1,27 @@
+body{
+	background-image: url("img1.jpg");
+	height:750px;
+}
+h4{
+  font-family: Poppins; 
+  font-size: 25pt;         
+  font-style: normal; 
+  font-weight: normal; 
+  color: #000;;
+  text-align: center; 
+  }
+  input{
+	  width: 50;
+	  border-radius: 8px;
+  }
+table{
+  font-family: Poppins; 
+  color:black;
+  font-size: 12pt; 
+  font-style: normal;
+  font-weight: normal;
+  /* text-align:; */
+  background-color: lavender;
+  border: 2px solid #ccc;
+  
+}
