@@ -55,8 +55,7 @@ export class TutorRegistrationComponent implements OnInit {
     })
 
     this.emailObj.recipient = this.formValue.value.tutor_email;
-    this.emailObj.msgBody = "Welcome to TutorFinder System\n Your credentials are\nUsername:" + this.tutorObj.username, +
-    "\nPassword:" + this.tutorObj.password;
+    this.emailObj.msgBody = "Welcome to TutorFinder System\n Your credentials are\nUsername: " + this.tutorObj.username + "\nPassword:" + this.tutorObj.password;
     this.emailObj.subject = "TutorFinderSystem credentials";
     
     this.emailapi.PostEmail(this.emailObj)
