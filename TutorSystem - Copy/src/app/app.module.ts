@@ -13,6 +13,7 @@ import { ParentLandingComponent } from './parent-landing/parent-landing.componen
 import { ErrorComponent } from './error/error.component';
 import { TutorLoginComponent } from './tutor-login/tutor-login.component';
 import { TutorLandingComponent } from './tutor-landing/tutor-landing.component';
+import { HomeComponent } from './home/home.component';
 
 
 @NgModule({
@@ -25,7 +26,8 @@ import { TutorLandingComponent } from './tutor-landing/tutor-landing.component';
     ParentLandingComponent,
     ErrorComponent,
     TutorLoginComponent,
-    TutorLandingComponent,   
+    TutorLandingComponent,
+    HomeComponent,   
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+body {
+  margin: 0;
+  box-sizing: border-box;
+}
+/* CSS for header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #778899;
+}
+
+.header .logo {
+  font-size: 25px;
+  font-family: 'Sriracha', cursive;
+  color: white;
+  text-decoration: none;
+  margin-left: 70px;
+}
+
+.intro {
+  display: flex;
+  color: white;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.intro h1 {
+  font-family: sans-serif;
+  font-size: 60px;
+  color: black;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.intro p {
+  font-size: 20px;
+  color: black;
+  margin: 20px 0;
+  font-weight: bold;
+}
+
+.intro button {
+  background-color: #909090;
+  color: white;
+  padding: 10px 25px;
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-right:20px;
+
+}
+
+.achievements {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 40px 50px;
+  font-family: 'Poppins';
+
+}.achievements1{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 40px 80px;
+ font-family: 'Poppins';
+ font-size: 18px;
+}
+
+.achievements .work {
+	 background-color: white;
+  color: black;
+  font-family: 'Poppins';
+  padding: 40px 20px;
+  border: none;
+  border-radius: 9px;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0px 0px 20px rgba(100, 100, 100, 0.9)
+}
+
+.achievements .work i {
+
+	font-family: 'Poppins';
+}
+
+.achievements .work .work-heading {
+  font-size: 20px;
+  color: black;
+  text-transform: uppercase;
+  align-left: 20px;;
+  font-family: 'Poppins';
+ 
+}
+
+.achievements .work .work-text {
+  font-size: 15px;
+  color:#778899;
+  
+  font-family: 'Poppins';
+}
+
+.box{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.about-me {
+	
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 80px;
+  border-top: 2px solid #eeeeee;
+}
+
+.about-me img {
+  width: 500px;
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.about-me-text h2 {
+  font-size: 30px;
+  color: #333333;
+  text-transform: uppercase;
+ 
+}
+.container{
+	display: flex;
+	justify-content: center;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.about-me-text p {
+  font-size: 15px;
+  color: #585858;
+  margin: 10px 0;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #302f49;
+  padding: 7px 80px;
+}
+
+.footer .copy {
+  color: #fff;
+}
+
+.bottom-links {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 40px 0;
+}
+
+.bottom-links .links {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 40px;
+}
+
+.bottom-links .links span {
+  font-size: 20px;
+  color: #fff;
+  text-transform: uppercase;
+  margin: 10px 0;
+}
+
+.bottom-links .links a {
+  text-decoration: none;
+  color: #a1a1a1;
+  padding: 10px 20px;
+}
