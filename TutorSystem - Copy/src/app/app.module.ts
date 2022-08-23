@@ -10,6 +10,9 @@ import { ParentRegistrationComponent } from './parent-registration/parent-regist
 import { TutorRegistrationComponent } from './tutor-registration/tutor-registration.component';
 import { EmailComponent } from './email/email.component';
 import { ParentLandingComponent } from './parent-landing/parent-landing.component';
+import { ErrorComponent } from './error/error.component';
+import { TutorLoginComponent } from './tutor-login/tutor-login.component';
+import { TutorLandingComponent } from './tutor-landing/tutor-landing.component';
 
 
 @NgModule({
@@ -19,7 +22,10 @@ import { ParentLandingComponent } from './parent-landing/parent-landing.componen
     ParentRegistrationComponent,
     TutorRegistrationComponent,
     EmailComponent,
-    ParentLandingComponent,   
+    ParentLandingComponent,
+    ErrorComponent,
+    TutorLoginComponent,
+    TutorLandingComponent,   
   ],
   imports: [
     BrowserModule,

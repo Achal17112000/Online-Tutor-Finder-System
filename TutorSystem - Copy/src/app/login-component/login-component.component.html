@@ -1,14 +1,12 @@
-<div class="row m-3 justify-content-center bg-primary">
-    <div class="col-2 text-light">
-        <h2>Login Page</h2>
-    </div>
+<div class="row m-3 justify-content-center" style="background-color: lightseagreen;">
+    <h2 style="font-family: 'Times New Roman', Times, serif;" class="text-center">PARENT LOGIN PAGE</h2>
 </div>
 <form>
     <div class="row justify-content-center">
         <div class="mb-3 col-5">
-        <label for="exampleInputEmail1" class="form-label">Email address</label>
-        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+            <label for="exampleInputEmail1" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
         </div>
     </div>
     <div class="row justify-content-center">
@@ -19,7 +17,10 @@
     </div>
     <div class="row justify-content-center">
         <div class="col-5">
-            <button type="submit" class="btn btn-primary">Submit</button>
+            <button type="submit" class="btn btn-primary" routerLink="/parent-landing">Parent Login</button><br>
+            <a routerLink="/parent-registration">Not a user yet? Click here</a>
+            <br>
+            <a routerLink="/tutor-login">Need Tutor Login, Click here</a>
         </div>
-    </div>    
-  </form>
+    </div>
+</form>

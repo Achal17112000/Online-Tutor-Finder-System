@@ -55,13 +55,15 @@ export class TutorRegistrationComponent implements OnInit {
     })
 
     this.emailObj.recipient = this.formValue.value.tutor_email;
-    this.emailObj.msgBody = "Welcome to TutorFinder System\n Your credentials are\n username:" + this.tutorObj.password +
-    "\npassword:" + this.tutorObj.password;
+    this.emailObj.msgBody = "Welcome to TutorFinder System\n Your credentials are\nUsername:" + this.tutorObj.username, +
+    "\nPassword:" + this.tutorObj.password;
     this.emailObj.subject = "TutorFinderSystem credentials";
     
     this.emailapi.PostEmail(this.emailObj)
     .subscribe(res => {
       console.log(res);
+    },err=>{
+      alert("soomething went wrong")
     })
   }  
    
