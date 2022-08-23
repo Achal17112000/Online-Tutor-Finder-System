@@ -14,6 +14,8 @@ import { ErrorComponent } from './error/error.component';
 import { TutorLoginComponent } from './tutor-login/tutor-login.component';
 import { TutorLandingComponent } from './tutor-landing/tutor-landing.component';
 import { HomeComponent } from './home/home.component';
+import { AdminHomePageComponent } from './admin-home-page/admin-home-page.component';
+import { EbookComponent } from './ebook/ebook.component';
 
 
 @NgModule({
@@ -27,7 +29,9 @@ import { HomeComponent } from './home/home.component';
     ErrorComponent,
     TutorLoginComponent,
     TutorLandingComponent,
-    HomeComponent,   
+    HomeComponent,
+    AdminHomePageComponent,
+    EbookComponent,   
   ],
   imports: [
     BrowserModule,

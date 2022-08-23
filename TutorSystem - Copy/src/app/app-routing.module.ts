@@ -1,5 +1,7 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { AdminHomePageComponent } from './admin-home-page/admin-home-page.component';
+import { EbookComponent } from './ebook/ebook.component';
 import { ErrorComponent } from './error/error.component';
 import { HomeComponent } from './home/home.component';
 import { LoginComponentComponent } from './login-component/login-component.component';
@@ -37,6 +39,14 @@ const routes: Routes = [
   {
     path : "tutor-landing",
     component : TutorLandingComponent
+  },
+  {
+    path : "ebook",
+    component : EbookComponent
+  },
+  {
+    path : "admin-home",
+    component : AdminHomePageComponent
   },
   {
     path : "**",

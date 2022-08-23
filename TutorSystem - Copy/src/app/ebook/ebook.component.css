@@ -1,0 +1,31 @@
+.table{
+    padding-left: 100px;
+    padding-right: 200px;
+}
+.space {
+    width: 6px;
+    height: auto;
+    display: inline-block;
+}
+
+th{
+    text-align: center;
+}
+
+td{
+    text-align: center;
+}
+h1{
+    padding-left: 100px;
+    display: inline;
+}
+span{
+    color: lightseagreen;
+}
+.adjust{
+    float: right;
+    padding-right: 200px;
+}
+.adjust2{
+    padding-left: 100px;
+}
