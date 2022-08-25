@@ -1,4 +1,6 @@
 <div class="row m-3 justify-content-center" style="background-color: lightseagreen;">
+    <h3 style="font-family: 'Times New Roman', Times, serif;" class="text-left" routerLink="" >Home</h3>
+
     <h2 style="font-family: 'Times New Roman', Times, serif;" class="text-center">TUTOR LOGIN PAGE</h2>
 </div>
 <form [formGroup]="loginForm">
@@ -17,7 +19,7 @@
     </div>
     <div class="row justify-content-center">
         <div class="col-5">
-            <button type="submit" class="btn btn-primary" (click)="login()">Tutor Login</button><br>
+            <button type="submit" class="btn btn-primary" routerLink="/tutor-landing" (click)="login()">Tutor Login</button><br>
             <a routerLink="/tutor-registration">Not a user yet? Click here</a>
             <br>
             <a routerLink="/parent-login">Need Parent Login, Click here</a>

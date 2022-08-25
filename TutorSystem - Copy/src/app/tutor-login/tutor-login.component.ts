@@ -34,7 +34,7 @@ export class TutorLoginComponent implements OnInit {
       });
       if(tutor){
         alert("Login Success!!");
-        this.router.navigate(['tutor-landing']);
+        this.router.navigate(['/tutor-landing']);
           this.loginForm.reset();
       }
     },err=>{

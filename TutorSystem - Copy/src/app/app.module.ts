@@ -16,6 +16,7 @@ import { TutorLandingComponent } from './tutor-landing/tutor-landing.component';
 import { HomeComponent } from './home/home.component';
 import { AdminHomePageComponent } from './admin-home-page/admin-home-page.component';
 import { EbookComponent } from './ebook/ebook.component';
+import { AdminLoginComponent } from './admin-login/admin-login.component';
 
 
 @NgModule({
@@ -31,7 +32,8 @@ import { EbookComponent } from './ebook/ebook.component';
     TutorLandingComponent,
     HomeComponent,
     AdminHomePageComponent,
-    EbookComponent,   
+    EbookComponent,
+    AdminLoginComponent,
   ],
   imports: [
     BrowserModule,
